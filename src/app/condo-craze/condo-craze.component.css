@@ -1,0 +1,16 @@
+.condo-container{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.condo-card{
+  padding: 5px;
+  margin: 25px;
+}
+
+.spinner{
+  margin-top: 20%;
+  align-content: center;
+}

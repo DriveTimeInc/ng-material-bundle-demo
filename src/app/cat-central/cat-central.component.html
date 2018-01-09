@@ -1,0 +1,9 @@
+<div class="cat-container">
+  <mat-spinner class="spinner" *ngIf="loading"></mat-spinner>
+  <mat-card class="cat-card" *ngFor="let cat of cats">
+    <mat-card-header>
+      <mat-card-title>{{getName(cat)}}</mat-card-title>
+    </mat-card-header>
+    <img src="../../assets/cats/{{getLastNumber(cat)}}.jpg" />
+  </mat-card>
+</div>

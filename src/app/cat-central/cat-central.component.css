@@ -1,0 +1,23 @@
+.cat-container{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cat-card{
+  padding: 5px;
+  margin: 25px;
+  width: 25%;
+}
+
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.spinner{
+  margin-top: 20%;
+  align-content: center;
+}

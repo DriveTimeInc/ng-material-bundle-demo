@@ -1,0 +1,15 @@
+.home-container{
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.preview-card{
+  align-self: center;
+  flex: 50;
+  width: 50%;
+  margin: 10px auto;
+  cursor: pointer;
+}
