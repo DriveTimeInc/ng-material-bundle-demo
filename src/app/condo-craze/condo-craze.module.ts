@@ -62,7 +62,6 @@
 //   exports: [
 //     RouterModule
 //   ]
-//   // entryComponents: [DialogComponent],
 //   // bootstrap: [AppComponent]
 // })
 // export class CondoCrazeModule { }
