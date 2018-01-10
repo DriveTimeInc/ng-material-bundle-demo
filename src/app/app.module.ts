@@ -30,11 +30,12 @@ import {
 import 'hammerjs';
 import { DialogComponent } from './dialog/dialog.component';
 import { HomeComponent } from './home/home.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule, PreloadAllModules } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { UserListComponent } from './user-list/user-list.component';
 import { CatCentralComponent } from './cat-central/cat-central.component';
 import { CondoCrazeComponent } from './condo-craze/condo-craze.component';
+
 
 @NgModule({
   declarations: [
@@ -50,7 +51,7 @@ import { CondoCrazeComponent } from './condo-craze/condo-craze.component';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(ROUTES),
+    RouterModule.forRoot(ROUTES /*, { preloadingStrategy: PreloadAllModules}*/),
     // Material
     MatButtonModule,
     MatCardModule,

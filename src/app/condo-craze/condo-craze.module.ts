@@ -20,17 +20,19 @@
 //   MatSidenavModule,
 //   MatSlideToggleModule,
 //   MatTabsModule,
-//   MatToolbarModule
+//   MatToolbarModule,
+//   MatProgressSpinnerModule
 // } from '@angular/material';
 
 // import 'hammerjs';
-// import { UserListComponent } from './user-list.component';
 // import { DialogComponent } from '../dialog/dialog.component';
-// import { CommonModule } from '@angular/common/src/common_module';
+// import { CommonModule } from '@angular/common';
+// import { CondoCrazeComponent } from './condo-craze.component';
+// import { RouterModule } from '@angular/router';
 
 // @NgModule({
 //   declarations: [
-//     UserListComponent
+//     CondoCrazeComponent
 //   ],
 //   imports: [
 //     CommonModule,
@@ -51,12 +53,16 @@
 //     MatSlideToggleModule,
 //     MatTabsModule,
 //     MatToolbarModule,
-
+//     MatProgressSpinnerModule,
 //     // Flex-layout
-//     FlexLayoutModule
+//     FlexLayoutModule,
+//     RouterModule.forChild([{ path: '', component: CondoCrazeComponent}])
 //   ],
 //   providers: [],
-//   entryComponents: [DialogComponent],
+//   exports: [
+//     RouterModule
+//   ]
+//   // entryComponents: [DialogComponent],
 //   // bootstrap: [AppComponent]
 // })
-// export class AppModule { }
+// export class CondoCrazeModule { }

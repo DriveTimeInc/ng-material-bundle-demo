@@ -11,4 +11,5 @@ export const ROUTES: Routes = [
   { path: 'admin', component: UserListComponent },
   { path: 'cat', component: CatCentralComponent},
   { path: 'condo', component: CondoCrazeComponent}
+  // { path: 'condo', loadChildren: './condo-craze/condo-craze.module#CondoCrazeModule'}
 ];

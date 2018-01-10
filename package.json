@@ -12,7 +12,11 @@
     "report": "webpack-bundle-analyzer ./dist/stats.json",
     "build:optimized": "ng build --aot --build-optimizer --stats-json",
     "build:aot": "ng build --aot --stats-json",
-    "build:dev": "ng build"
+    "build:dev": "ng build --stats-json",
+    "run:dev": "ng serve",
+    "run:aot": "ng serve --aot",
+    "run:optimized": "ng serve --aot --build-optimizer",
+    "run:prod": "ng serve --aot --build-optimizer --prod"
   },
   "private": true,
   "dependencies": {
